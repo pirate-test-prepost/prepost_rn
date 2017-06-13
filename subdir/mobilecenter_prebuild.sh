@@ -1,4 +1,4 @@
 #!/bin/bash
 echo "============================================="
-echo "======= MOBILECENTER POSTBUILD SCRIPT ======="
+echo "======= MOBILECENTER PREBUILD SCRIPT ========"
 echo "============================================="
