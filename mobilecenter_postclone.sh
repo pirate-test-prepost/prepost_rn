@@ -3,6 +3,6 @@ echo "============================================="
 echo "======= MOBILECENTER POSTCLONE SCRIPT ======="
 echo "============================================="
 
-echo "current branch: $MOBILECENTER_BRANCH"
+echo "current branch: $BUILD_SOURCEBRANCHNAME"
 echo "selected module: $MODULENAME"
 
