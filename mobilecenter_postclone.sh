@@ -3,14 +3,6 @@ echo "============================================="
 echo "======= MOBILECENTER POSTCLONE SCRIPT ======="
 echo "============================================="
 
-echo "current branch is"
-echo $MOBILECENTER_BRANCH
+echo "current branch: $MOBILECENTER_BRANCH"
+echo "selected module: $MODULENAME"
 
-echo $PATH
-echo $MODULENAME
-
-if [ $MOBILECENTER_BRANCH == "master" ]; then
-    # ...
-else
-    # ...
-fi
