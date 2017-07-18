@@ -4,7 +4,7 @@ echo "======= MOBILECENTER POSTCLONE SCRIPT ======="
 echo "============================================="
 
 echo "Setting custom variable"
-echo "##vso[task.setvariable variable=MOBILECENTER_CUSTOM_VAR]crushed tomatoes"
+MOBILECENTER_CUSTOM_VAR = "crushed tomatoes"
 
 echo "MOBILECENTER_BUILD_ID $MOBILECENTER_BUILD_ID"
 echo "MOBILECENTER_BRANCH $MOBILECENTER_BRANCH"
