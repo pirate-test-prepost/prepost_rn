@@ -4,7 +4,7 @@ echo "======= MOBILECENTER POSTCLONE SCRIPT ======="
 echo "============================================="
 
 echo "Setting custom variable"
-MOBILECENTER_CUSTOM_VAR = "crushed tomatoes"
+export MOBILECENTER_CUSTOM_VAR = "crushed tomatoes"
 
 echo "MOBILECENTER_BUILD_ID $MOBILECENTER_BUILD_ID"
 echo "MOBILECENTER_BRANCH $MOBILECENTER_BRANCH"
