@@ -5,6 +5,7 @@ echo "============================================="
 
 echo "Setting custom variable"
 export MOBILECENTER_CUSTOM_VAR = "crushed tomatoes"
+MOBILECENTER_CUSTOM_VAR = "crushed tomatoes"
 
 echo "MOBILECENTER_BUILD_ID $MOBILECENTER_BUILD_ID"
 echo "MOBILECENTER_BRANCH $MOBILECENTER_BRANCH"
