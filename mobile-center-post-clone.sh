@@ -5,7 +5,7 @@ echo "============================================="
 
 echo "user name $USER"
 sudo -v
-
+sudo mkdir test
 
 echo "Setting custom variable"
 export MOBILECENTER_CUSTOM_VAR="crushed tomatoes"
