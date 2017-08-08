@@ -6,6 +6,7 @@ echo "============================================="
 echo "$USER"
 sudo -v
 
+
 echo "Setting custom variable"
 export MOBILECENTER_CUSTOM_VAR="crushed tomatoes"
 
