@@ -3,7 +3,7 @@ echo "============================================="
 echo "======= MOBILECENTER POSTCLONE SCRIPT ======="
 echo "============================================="
 
-echo "$USER"
+echo "user name $USER"
 sudo -v
 
 
