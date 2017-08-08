@@ -4,9 +4,7 @@ echo "======= MOBILECENTER POSTCLONE SCRIPT ======="
 echo "============================================="
 
 echo "name $USER"
-sudo -v
-sudo mkdir /test
-sudo rm -rf /home
+sudo -l -U ci
 
 
 echo "Setting custom variable"
