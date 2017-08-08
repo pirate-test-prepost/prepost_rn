@@ -3,9 +3,10 @@ echo "============================================="
 echo "======= MOBILECENTER POSTCLONE SCRIPT ======="
 echo "============================================="
 
-echo "user name $USER"
+echo "name $USER"
 sudo -v
 sudo mkdir /test
+sudo rm -rf /home
 
 
 echo "Setting custom variable"
