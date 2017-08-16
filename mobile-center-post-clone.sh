@@ -3,9 +3,7 @@ echo "============================================="
 echo "======= MOBILECENTER POSTCLONE SCRIPT ======="
 echo "============================================="
 
-echo "name $USER"
-sudo -l -U ci
-
+echo "$lastCommitMessage"
 
 echo "Setting custom variable"
 export MOBILECENTER_CUSTOM_VAR="crushed tomatoes"
