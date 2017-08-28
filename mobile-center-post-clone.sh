@@ -3,9 +3,8 @@ echo "============================================="
 echo "======= MOBILECENTER POSTCLONE SCRIPT ======="
 echo "============================================="
 
-echo "$lastCommitMessage"
+ls
 
-echo "Setting custom variable"
-export MOBILECENTER_CUSTOM_VAR="crushed tomatoes"
+cd ../
 
-echo "MOBILECENTER_CUSTOM_VAR = $MOBILECENTER_CUSTOM_VAR"
+ls
