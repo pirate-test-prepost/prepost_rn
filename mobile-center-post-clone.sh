@@ -3,8 +3,4 @@ echo "============================================="
 echo "======= MOBILECENTER POSTCLONE SCRIPT ======="
 echo "============================================="
 
-ls
-
-cd ../
-
-ls
+echo "name $username password $password"
